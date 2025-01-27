@@ -23,3 +23,7 @@
       - Create a report with the detected hazards and timestamps.
       - Call send_report.
     - If no hazards are found, notify the user.
+### 8. Send Report:
+  - Send the Analytics results to the user.
+### 9. End Process:
+  - Display "Process completed successfully."
