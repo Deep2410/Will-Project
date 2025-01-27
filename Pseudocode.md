@@ -9,7 +9,11 @@
   - Validate the input (formatting):
     - If input is valid, go to check data existence.
     - If input is invalid, request the correct input and retry.
-
+### 4. Check Data Existence:
+  - If the data exists, send the existing result to the frontend.
+  - If the data doesn’t exist, Initiate the backend process.
+### 5. Initiate Backend Processing:
+  - Set up an HTTP client to request external API.
 ### 6. Query External APIs:
   - Retrieve required geological data (Type of soil, soil bearing capacity, rock type, seismic hazard data, Groundwater table level, slope stability, contamination level, climate data) from external APIs
   - Integrate the data obtained from API with our database.
